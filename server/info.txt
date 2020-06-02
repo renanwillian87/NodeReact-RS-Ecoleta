@@ -1,0 +1,28 @@
+# information
+ npm: repository
+ npx: execute package from node, if package don't exists than is downloading before execute. 
+
+# version
+nodejs 12.17.0
+npm 6.14.4
+
+# create server project
+$ npm init -y
+
+# install dependencies
+$ npm install express (server)
+$ npm install express @types/express -D (definition typescript for express)(-D development dependency, not forward in build)
+$ npm install ts-node -D
+$ npm install ts-node-dev -D (observe and re-run)
+$ npm install typescript -D
+# npx is uses to access bin folder in node_modules
+$ npx tsc -- init (init typescript)
+$ npx ts-node server.ts (run)
+
+# tip to run, create a script in package.json live dev and util command npm run NAME_SCRIPT 
+
+# create reactjs project
+$ npx create-react-app web --template=typescript
+
+
+
