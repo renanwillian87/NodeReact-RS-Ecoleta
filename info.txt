@@ -24,5 +24,16 @@ $ npx ts-node server.ts (run)
 # create reactjs project
 $ npx create-react-app web --template=typescript
 
+# create knexjs to sqlite
+$ npm install knex --save
+$ npm install sqlite3
+
+# run knexjs migration
+# npx knex migrate:latest --knexfile knexfile.ts migrate:latest
 
 
+# express knowledge
+# there are 3 ways to get some value from a request
+ - params : this parameter is defined in the route as "/users/:id" to get is necessary use in code "request.params.id"
+ - query param: this parameter is defined in url, usually used to make filter as "users?search=Lo" to get is necessary use in code "request.query.search"
+ - request body: this parameter is used to send information from the client to server to get this parameter is necessary use in code "request.body"
