@@ -37,3 +37,9 @@ $ npm install sqlite3
  - params : this parameter is defined in the route as "/users/:id" to get is necessary use in code "request.params.id"
  - query param: this parameter is defined in url, usually used to make filter as "users?search=Lo" to get is necessary use in code "request.query.search"
  - request body: this parameter is used to send information from the client to server to get this parameter is necessary use in code "request.body"
+
+# run code from server
+$ npm run [SCRIPT_NAME]
+
+# run code from react
+$ npm start

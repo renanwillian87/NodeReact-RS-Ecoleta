@@ -12,3 +12,10 @@ https://insomnia.rest/
 
 # SQL query builder
 https://knexjs.org/
+
+# ReactJS Map
+https://leafletjs.com
+https://react-leaflet.js.org/
+
+# API IBGE Localidade
+https://servicodados.ibge.gov.br/api/docs/localidades?versao=1
