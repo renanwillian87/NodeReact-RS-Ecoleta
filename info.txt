@@ -43,3 +43,35 @@ $ npm run [SCRIPT_NAME]
 
 # run code from react
 $ npm start
+
+# install expo cli global
+$ npm install -g expo-cli
+
+# create expo project (use blank typescript)
+$ expo init [NAME]
+
+# run expo project
+$ npm start
+
+# expo font
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+# add react navigation
+$ npm install @react-navigation/native
+$ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+$ npm install @react-navigation/stack
+
+# add expo maps
+# doc:
+# https://docs.expo.io/versions/latest/sdk/map-view/
+$ expo install react-native-maps
+
+# add expo mail composer
+# doc:
+# https://docs.expo.io/versions/latest/sdk/mail-composer/
+$ expo install expo-mail-composer
+
+# add react-native-picker-select
+# doc
+# https://www.npmjs.com/package/react-native-picker-select
+$ npm install react-native-picker-select
