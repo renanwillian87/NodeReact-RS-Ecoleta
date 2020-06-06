@@ -31,10 +31,8 @@ yarn-debug.log*
 yarn-error.log*
 
 
-
-
 node_modules/**/*
-.expo/*
+mobile/.expo/*
 npm-debug.*
 *.jks
 *.p8
