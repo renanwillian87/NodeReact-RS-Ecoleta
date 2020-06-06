@@ -7,6 +7,11 @@
 /.pnp
 .pnp.js
 
+/server/uploads/*
+!/server/uploads/.gitkeep
+
+*.sqlite
+
 # testing
 /coverage
 
